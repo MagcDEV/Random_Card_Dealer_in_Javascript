@@ -1,6 +1,10 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+html {
+  height: 100%;
+}
 body {
+  min-height: 800px;
   background-color: green;
 }
 
@@ -18,6 +22,7 @@ body {
 
 .footer {
   background-color: white;
+  text-align: center;
 }
 
 .top-icon {
@@ -42,4 +47,20 @@ body {
 
 .next-card {
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.change-size {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.width {
+  width: 20%;
+  margin: auto;
+}
+
+.altura-ancho {
+  width: 40%;
+  margin: auto;
 }
